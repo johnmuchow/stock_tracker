@@ -1,6 +1,6 @@
 # stock_tracker
 
-A new flutter application project.
+Flutter app to track stocks for multiple users, using Cloud Firestore on the backend.
 
 ## Getting Started
 
