@@ -25,6 +25,8 @@ Here is a screenshot of the main view in the application:
 
 ![](screenshots/stockList.png)
 
+Watch a video walkthrough of the application: [iOS Dev’s First Flutter App](https://youtu.be/8j3I_dp4Ac0).
+
 
 ## Running the application
 
