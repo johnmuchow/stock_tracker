@@ -10,7 +10,7 @@ I wrote this Flutter application as a means to learn [Flutter](http://flutter.io
 The entire application is about 1200 lines of code, including comments. The same code base for this app (with no changes) runs as a native app on iOS and Android.
 
 
-###Application Features:
+### Application Features:
 
 ▪ Support multiple users.  
 ▪ Create authenticated user accounts on a remote server.  
