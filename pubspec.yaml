@@ -18,6 +18,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  application:
-    androidPackage: com.example.stocktracker
-    iosBundleIdentifier: com.example.stockTracker
