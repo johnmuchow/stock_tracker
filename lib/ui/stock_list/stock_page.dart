@@ -1,8 +1,8 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:stock_tracker/model/stock.dart';
 import 'package:stock_tracker/ui/stock_list/stock_card.dart';
-import 'dart:convert';
-import 'package:http/http.dart' as http;
 import 'package:stock_tracker/auth/auth_provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
@@ -39,10 +39,6 @@ class _StockPageState extends State<StockPage> {
   @override
   Widget build(BuildContext context) {
     String _user = AuthProvider.of(context).baseAuth.userId();
-
-    // Attempt to refresh all quotes from the remote API
-    // for the current user.
-//    _getAllQuotes();
 
     return Scaffold(
       appBar: AppBar(
