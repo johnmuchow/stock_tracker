@@ -12,7 +12,6 @@ dependencies:
   cloud_firestore: 0.8.2+3
   http:
   cloud_firestore:
-  http:
 
 dev_dependencies:
   flutter_test:
